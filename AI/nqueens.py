@@ -13,7 +13,7 @@ def print_board():
             print("Q" if board[r]==c else ".", end=" ")
         print()
     print()
-
+#
 def solve(r):
     if r == N:
         print_board()
@@ -27,4 +27,4 @@ def solve(r):
 
 # FIX FIRST QUEEN HERE
 board[0] = 2  # fixes queen at row 0, column 2
-solve(1) → start solving from row 1
+solve(1) # start solving from row 1
