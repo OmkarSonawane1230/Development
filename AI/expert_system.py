@@ -1,0 +1,5 @@
+f=input("Fever? ")
+c=input("Cough? ")
+if f=='y' and c=='y': print("Flu")
+elif f=='y': print("Infection")
+else: print("Fine")
