@@ -1,3 +1,6 @@
+https://raw.githubusercontent.com/OmkarSonawane1230/Functional-2026/main/DSBDA/train.csv
+
+
 # DSBDA Exam Survival Guide & Memory Tricks
 
 Don't panic! 10 practicals might sound like a lot, but they actually all follow the exact same patterns. You don't need to memorize 10 different scripts; you just need to memorize **4 core formulas**. 
