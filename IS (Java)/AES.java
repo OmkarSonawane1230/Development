@@ -1,6 +1,5 @@
 import javax.crypto.*;
 import javax.crypto.spec.SecretKeySpec;
-import java.util.Base64;
 
 public class AES {
     public static void main(String[] args) throws Exception {
@@ -15,7 +14,8 @@ public class AES {
         c.init(Cipher.DECRYPT_MODE, key);
         byte[] dec = c.doFinal(enc);
 
-        System.out.println(Base64.getEncoder().encodeToString(enc));
+        for (byte b : enc) System.out.printf("%02x", b);
+        System.out.println();
         System.out.println(new String(dec));
     }
 }
